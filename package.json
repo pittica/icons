@@ -1,0 +1,40 @@
+{
+  "name": "@pittica/icons",
+  "private": false,
+  "description": "Pittica icons.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Lucio Benini",
+    "email": "info@pittica.com",
+    "url": "https://pittica.com"
+  },
+  "bugs": {
+    "url": "https://github.com/pittica/icons/issues"
+  },
+  "deprecated": false,
+  "homepage": "https://github.com/pittica/icons",
+  "keywords": [
+    "pittica",
+    "scss",
+    "icons"
+  ],
+  "main": "icons.scss",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pittica/icons.git"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "config": {
+    "access": "public"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-react"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+# Cache
+.DS_Store
+thumbs.db
+desktop.ini
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js

@@ -1,0 +1,80 @@
+$icons: (
+  "logo": "\e900",
+  "sign": "\e901",
+  "logo-sign": "\e902",
+  "arrow-up": "\2bc5",
+  "arrow-down": "\2bc6",
+  "arrow-left": "\2bc7",
+  "arrow-right": "\2bc8",
+  "zoom-in": "\e904",
+  "zoom-out": "\e905",
+  "search": "\1f50e",
+  "heart": "\1f499",
+  "star": "\2b50",
+  "cloud": "\2601",
+  "printer": "\1f5a8",
+  "laptop": "\e914",
+  "screen": "\e90e",
+  "phone": "\e90f",
+  "tablet-landscape": "\e913",
+  "tablet": "\e912",
+  "phone-portrait": "\e910",
+  "phone-landscape": "\e911",
+  "vcard": "\e915",
+  "home": "\1f3e0",
+  "facebook": "\e920",
+  "instagram": "\e921",
+  "linkedin": "\e922",
+  "twitter": "\e923",
+  "github": "\e924",
+  "whatsapp": "\e925",
+  "telegram": "\e926",
+  "user": "\1f464",
+  "users": "\1f465",
+  "folder": "\1f4c1",
+  "tag": "\1f516",
+  "marker": "\1f4cd",
+  "bookmark": "\1f4d1",
+  "paperclip": "\1f4ce",
+  "envelope": "\1f4e7",
+  "clock": "\1f551",
+  "file-picture": "\e930",
+  "file-music": "\e931",
+  "file-play": "\e932",
+  "file-video": "\e933",
+  "file-zip": "\e934",
+  "file-pdf": "\e935",
+  "file-word": "\e936",
+  "file-excel": "\e937",
+);
+
+@each $name, $glyph in $icons {
+  .icon-pittica-#{$name}:before {
+    font-family: "pittica";
+    content: $glyph;
+  }
+}
+
+@font-face {
+  font-family: "pittica";
+  src: url("~@pittica/icons/fonts/pittica.eot");
+  src: url("~@pittica/icons/fonts/pittica.eot#iefix") format("embedded-opentype"),
+    url("~@pittica/icons/fonts/pittica.ttf") format("truetype"),
+    url("~@pittica/icons/fonts/pittica.woff") format("woff"),
+    url("~@pittica/icons/fonts/pittica.svg#pittica") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="icon-pittica-"],
+[class*=" icon-pittica-"] {
+  font-family: "pittica" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,13 @@
+logs
+.gitattributes
+*.log
+.DS_Store
+thumbs.db
+desktop.ini
+src
+images
+icons.code-workspace
+.github
+selection.json
+.prettierignore
+.prettierrc

@@ -2,7 +2,6 @@
 
 ![Version](https://img.shields.io/github/package-json/v/pittica/icons)
 ![Release](https://img.shields.io/github/v/release/pittica/icons)
-![React version](https://img.shields.io/github/package-json/dependency-version/pittica/icons)
 
 Pittica icons.
 

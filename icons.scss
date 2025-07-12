@@ -49,6 +49,7 @@ $icons: (
   "file-pdf": "\e937",
   "file-word": "\e938",
   "file-excel": "\e939",
+  "bullet-list": "\25b8",
 );
 
 @each $name, $glyph in $icons {
